@@ -1,6 +1,6 @@
 #pragma once
 
-#include <Windows.h>
+#include <windows.h>
 
 
 __asm__("ZwQuerySystemInformation:                        \n\
