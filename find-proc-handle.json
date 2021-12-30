@@ -19,7 +19,7 @@
       {
         "name": "handle",
         "desc": "Specify a process handle (e.g. lsass.exe).",
-        "type": "string",
+        "type": "wstring",
         "optional": false
       }
     ]
