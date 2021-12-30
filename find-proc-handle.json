@@ -5,7 +5,7 @@
     "extension_author": "@moloch--",
     "original_author": "@outflanknl",
     "repo_url": "https://github.com/sliverarmory/FindObjects-BOF",
-    "help": "Beacon Object File (BOF) project which uses direct system calls to enumerate processes for specific process handles",
+    "help": "Uses direct system calls to enumerate processes for specific process handles",
     "depends_on": "coff-loader",
     "entrypoint": "go",
     "files": [
