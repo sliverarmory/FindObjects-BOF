@@ -1,0 +1,26 @@
+{
+    "name": "Find Module",
+    "version": "v0.0.0",
+    "command_name": "find-module",
+    "extension_author": "@moloch--",
+    "original_author": "@outflanknl",
+    "repo_url": "https://github.com/sliverarmory/FindObjects-BOF",
+    "help": "Beacon Object File (BOF) project which uses direct system calls to enumerate processes for specific modules",
+    "depends_on": "coff-loader",
+    "entrypoint": "go",
+    "files": [
+      {
+        "os": "windows",
+        "arch": "amd64",
+        "path": "FindModule.o"
+      }
+    ],
+    "arguments": [
+      {
+        "name": "module",
+        "desc": "Specify a module (e.g. clr.dll).",
+        "type": "string",
+        "optional": false
+      }
+    ]
+}

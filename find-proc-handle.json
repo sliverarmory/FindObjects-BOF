@@ -1,0 +1,26 @@
+{
+    "name": "Find Proc Handle",
+    "version": "v0.0.0",
+    "command_name": "find-proc-handle",
+    "extension_author": "@moloch--",
+    "original_author": "@outflanknl",
+    "repo_url": "https://github.com/sliverarmory/FindObjects-BOF",
+    "help": "Beacon Object File (BOF) project which uses direct system calls to enumerate processes for specific process handles",
+    "depends_on": "coff-loader",
+    "entrypoint": "go",
+    "files": [
+      {
+        "os": "windows",
+        "arch": "amd64",
+        "path": "FindProcHandle.o"
+      }
+    ],
+    "arguments": [
+      {
+        "name": "handle",
+        "desc": "Specify a process handle (e.g. lsass.exe).",
+        "type": "string",
+        "optional": false
+      }
+    ]
+}
